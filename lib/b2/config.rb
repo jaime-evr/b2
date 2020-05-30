@@ -20,6 +20,14 @@ module B2
       def download_url
         auth_response['downloadUrl']
       end
+
+      def min_part_size
+        auth_response['absoluteMinimumPartSize']
+      end
+
+      def recommended_part_size
+        auth_response['recommendedPartSize']
+      end
     end
   end
 end
