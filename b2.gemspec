@@ -26,6 +26,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'httparty', '~> 0.18.0'
   s.add_development_dependency 'minitest', '~> 5.14.0'
   s.add_development_dependency 'pry', '~> 0.12.2'
-  s.add_development_dependency 'rdoc', '~> 3.12.2'
+  s.add_development_dependency 'rdoc', '~> 6.3.1'
   s.add_development_dependency 'rubocop'
 end
